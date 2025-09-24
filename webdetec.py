@@ -18,9 +18,9 @@ def cek_status_web(url):
 
 
 def send_email_report(hasil, timestamp):
-    sender_email = "sulfajeri12@gmail.com"  # Ganti dengan email pengirim
-    sender_password = "yvmaqfacpvovbbhx"   # Ganti dengan app password Gmail
-    receiver_email = "sulfajeri12@gmail.com"
+    sender_email = "Your_Email"  # Ganti dengan email pengirim
+    sender_password = "Your_Password"   # Ganti dengan app password Gmail
+    receiver_email = "Your_Email"
 
     subject = f"Laporan Deteksi Website OPD Makassar {timestamp}"
     body = "Ringkasan hasil deteksi website OPD Kota Makassar:\n\n"
@@ -61,4 +61,5 @@ if __name__ == "__main__":
         print(f"\nMulai pengecekan pada {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
         run_detection()
         print("Menunggu 1 jam untuk pengecekan berikutnya...")
+
         time.sleep(3600)
