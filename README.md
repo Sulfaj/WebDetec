@@ -12,6 +12,8 @@ This repository contains a simple Python script to detect the availability statu
 - `urls_opd_makassar.txt` → List of OPD websites.
 - `webdetec.py` → Main script for detection and reporting.
 
+- 
+
 ## Requirements
 - Python 3.x
 - Install dependencies:
